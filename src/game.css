@@ -1,0 +1,52 @@
+/* Game container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #111;
+}
+
+/* Game box */
+.game-box {
+  position: relative;
+  background: #222;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+
+/* Player */
+.player {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #4da6ff;
+  border-radius: 5px;
+}
+
+/* Obstacles */
+.obstacle {
+  position: absolute;
+  background: #33cc33;
+}
+
+.obstacle.top {
+  top: 0;
+}
+
+.obstacle.bottom {
+  position: absolute;
+}
+
+/* Score */
+.score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  z-index: 10;
+}
